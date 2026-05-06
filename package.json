@@ -4,14 +4,20 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next dev"
   },
   "dependencies": {
-    "@azure/cosmos": "^3.9.2",
-    "next": "^9.5.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "tailwindcss": "^1.9.6"
+    "@azure/cosmos": "^4.9.3",
+    "next": "^16.2.4",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4"
+  },
+  "overrides": {
+    "postcss": "^8.5.14"
   }
 }
